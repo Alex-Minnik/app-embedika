@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "app-embedika"
+    }
+  },
+  "defaultProject": "app-embedika",
+  "cli": {
+    "analytics": "0bd7efee-8d46-4645-b037-18cdb29e92ec"
+  }
 }

@@ -1,0 +1,31 @@
+
+.rocket {
+    margin: 40px 0 29px 0;
+    display: flex;
+}
+.rocket_name {
+    margin-right: 23px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+}
+.rocket_link {
+    width: 16px;
+    height: 16px;
+}
+.parameter {
+    display: flex;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #A5A5A5;    
+}
+.parameter_name {
+    margin-right: 104px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.parameter_value {
+    margin-right: 200px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2962FF;
+}
