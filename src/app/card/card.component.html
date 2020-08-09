@@ -8,4 +8,15 @@
     <div class="parameter_name">Порт</div>
     <div class="parameter_value">Port Canaveral</div>
 </div>
-
+<div *ngFor="let ship of ships | async">
+    <div class="rocket">
+        <div class="rocket_name">{{ship.name}}</div>
+        <div class="rocket_link"><i class="fa fa-arrow-right rocket_link" aria-hidden="true"></i></div>
+    </div>
+    <div class="parameter">
+        <div class="parameter_name">Тип</div>
+        <div class="parameter_value">{{ ship.type }}</div>
+        <div class="parameter_name">Порт</div>
+        <div class="parameter_value">{{ ship.home_port }}</div>
+    </div>
+</div>
